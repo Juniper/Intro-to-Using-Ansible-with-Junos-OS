@@ -95,7 +95,45 @@ PLAY RECAP *********************************************************************
 
 # junos_commit
 - video
-- code
-- command line execution
-- output
-- explanation along the way or at the very end?
+
+This modules performs a commit without changing the configuration file. 
+
+To execute the commit, run the following line:
+
+ansible-playbook -i all.inv commit.yaml
+
+when all.inv is the inventory file and commit.yaml is the playbook. 
+```
+---
+- name: Commit
+  hosts: junos-all
+  connection: local
+  gather_facts: no
+  roles:
+    - Juniper.junos
+  vars_prompt:
+    - name: ADMUSER
+      prompt: Username
+      private: no
+    - name: ADMPASS
+      prompt: password
+      private: yes
+  tasks:
+    - name: Confirm the commit
+      junos_commit:
+        host: "{{ inventory_hostname }}"
+        user: "{{ ADMUSER }}"
+        passwd: "{{ ADMPASS }}"
+        comment: "commit confirmed
+```
+Output:
+```
+PLAY [Commit] ******************************************************************
+
+TASK [Confirm the commit] ******************************************************
+changed: [10.164.1.92]
+
+PLAY RECAP *********************************************************************
+10.164.1.92                : ok=1    changed=1    unreachable=0    failed=0   
+```
+If you connect to your device and execute the command: show system commit on the command line, you should see your commit in the list of commits.
