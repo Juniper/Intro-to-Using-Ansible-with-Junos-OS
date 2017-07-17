@@ -2,7 +2,7 @@
 Examples of Using Ansible with Junos Devices
 # What is Ansible?
 Ansible is an automation framework that is used for automating infrustructure tasks. Juniper Networks specifically uses it to automate network infrustructure. In this guide, we will be showing how to use Ansible with Junos. 
-[I'm a relative reference to a repository file](../blob/master/yaml.pdf)
+[I'm a relative reference to a repository file](../master/yaml.pdf)
 Ansible uses YAML syntax to compute the tasks. YAML is a data serialization language is can be easily read and understood by any person. The syntax and format of a YAML file is as follows: 
 1. Each file begins with three hyphens (---)
 2. Declaring a variable has the syntax var_name:var_result
