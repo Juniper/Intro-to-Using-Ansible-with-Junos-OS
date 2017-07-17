@@ -3,7 +3,9 @@ Examples of Using Ansible with Junos Devices
 # What is Ansible?
 Ansible is an automation framework that is used for automating infrustructure tasks. Juniper Networks specifically uses it to automate network infrustructure. In this guide, we will be showing how to use Ansible with Junos. 
 
-Ansible expression automation tasks with YAML. To see a brief overview of YAML file structure click [here](../master/yaml.pdf).
+Ansible automation tasks are written in YAML (to see a brief overview of YAML file structure click [here](../master/yaml.pdf)). We refer to these as playbooks. To automate the jobs, a user executes the playbook against a set of hosts listed in an inventory file. 
+
+We will now show how to install Ansible. 
 
 # Steps to install Ansible
 Prereqs:
@@ -14,11 +16,9 @@ As root user enter
 
 sudo pip install ansible 
 
-sudo ansible-galaxy install Juniper.junos
+sudo ansible-galaxy install Juniper.junos on the command line. 
 
-on the command line. 
-Link: What is Ansible and how is it used
-Link: Overview of different file types/examples/what they look like - yaml, pb, etc
+Next, we will show examples of playbooks for 3 different modules. 
 
 # junos_install_config
 - video
