@@ -6,13 +6,14 @@ Ansible is an automation framework that is used for automating infrustructure ta
 Ansible uses YAML syntax to compute the tasks. YAML is a data serialization language is can be easily read and understood by any person. The syntax and format of a YAML file is as follows: 
 1. Each file begins with three hyphens (---)
 2. Declaring a variable has the syntax var_name:var_result
-  *answer: 42*
+
+   answer: 42
 3. Boolean values are Yes/No
 4. A list item begins with a hyphen followed by a space then the name. Below is a list of Animals
-  * - Cats
+    - Cats
     - Dogs
 4. Associative arrays begin with a hyphen followed by a space then var_name:var_result
-  *
+  
 Link: What is Ansible and how is it used
 Link: Overview of different file types/examples/what they look like - yaml, pb, etc
 
