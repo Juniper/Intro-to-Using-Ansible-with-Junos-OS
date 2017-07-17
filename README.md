@@ -10,11 +10,14 @@ Ansible uses YAML syntax to compute the tasks. YAML is a data serialization lang
    answer: 42
 3. Boolean values are Yes/No
 4. A list item begins with a hyphen followed by a space then the name. Below is a list of Animals
+```
     - Cats
     - Dogs
+```
 4. Associative arrays begin with a hyphen followed by a space then var_name:var_result
   
    Cats: Persian
+   
    Dogs: canines
 5. You can combine associative arrays and lists to make a data structure 
 ```
