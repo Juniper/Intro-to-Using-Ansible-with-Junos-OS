@@ -18,7 +18,7 @@ Ansible uses YAML syntax to compute the tasks. YAML is a data serialization lang
   
    Cats: Persian
    
-   Dogs: canines
+   Dogs: Pugs
 5. You can combine associative arrays and lists to make a data structure 
 ```
 --- # Pets
