@@ -2,37 +2,9 @@
 Examples of Using Ansible with Junos Devices
 # What is Ansible?
 Ansible is an automation framework that is used for automating infrustructure tasks. Juniper Networks specifically uses it to automate network infrustructure. In this guide, we will be showing how to use Ansible with Junos. 
-[I'm a relative reference to a repository file](../master/yaml.pdf)
-Ansible uses YAML syntax to compute the tasks. YAML is a data serialization language is can be easily read and understood by any person. The syntax and format of a YAML file is as follows: 
-1. Each file begins with three hyphens (---)
-2. Declaring a variable has the syntax var_name:var_result
 
-   answer: 42
-3. Boolean values are Yes/No
-4. A list item begins with a hyphen followed by a space then the name. Below is a list of Animals
-```
-    - Cats
-    - Dogs
-```
-4. Associative arrays begin with a hyphen followed by a space then var_name:var_result
-```  
-   - Cats: Persian
-   - Dogs: Pugs
-```
-5. You can combine associative arrays and lists to make a data structure 
-```
---- # Pets
-Cats:
-  - name: Persian
-    life_span: 14.1
-  - name: Burmese
-    life_span: 15
-Dogs:
-  - name: Pug
-    life_span: 11
-  - name: Corgi
-    life_span: 12
-```
+Ansible expression automation tasks with YAML. To see a brief overview of YAML file structure click [here](../master/yaml.pdf).
+
 # Steps to install Ansible
 Prereqs:
 1. Python 2.6 or 2.7
