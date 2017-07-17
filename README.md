@@ -12,14 +12,15 @@ Link: Overview of different file types/examples/what they look like - yaml, pb, 
 - explanation along the way or at the very end?
 
 # junos_get_facts
-- video ⋅⋅
+insert video
+
 The code below is a yaml file called to collect the facts from the junos device. 
 
 To print the facts of the specific junos device, enter the following line in the command line:
 
 ansible-playbook -i all.inv facts.pb.yaml 
-- when -i reads the following inventory file (in this case all.inv) that specifies the host information 
-- facts.pb.yaml is the yaml code below.
+
+when -i reads the following inventory file (in this case all.inv) that specifies the host information and facts.pb.yaml is the yaml code below.
 ```
 ---
 - name: Get facts
