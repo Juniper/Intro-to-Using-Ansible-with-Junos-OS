@@ -14,6 +14,23 @@ Ansible uses YAML syntax to compute the tasks. YAML is a data serialization lang
     - Dogs
 4. Associative arrays begin with a hyphen followed by a space then var_name:var_result
   
+   Cats: Persian
+   Dogs: canines
+5. You can combine associative arrays and lists to make a data structure 
+```
+--- # Pets
+Cats:
+  - name: Persian
+    life_span: 14.1
+  - name: Burmese
+    life_span: 15
+Dogs:
+  - name: Pug
+    life_span: 11
+  - name: Corgi
+    life_span: 12
+```
+  
 Link: What is Ansible and how is it used
 Link: Overview of different file types/examples/what they look like - yaml, pb, etc
 
