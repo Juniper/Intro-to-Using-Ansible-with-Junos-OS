@@ -3,14 +3,14 @@ Ansible is an automation framework that is used for automating infrustructure ta
 
 Ansible automation tasks are written in YAML (to see a brief overview of YAML file structure click [here](../master/resources/yaml.pdf)). We refer to these as playbooks. To automate the jobs, a user executes the playbook against a set of hosts listed in an inventory file. To read a short intro on playbooks click [here](../master/resources/playbooks.pdf).
 
-We will be going over the following topics (for more details check out the [wiki]https://github.com/Juniper/ansible-junos-examples/wiki:
+We will be going over the following topics (for more details check out the [wiki](https://github.com/Juniper/ansible-junos-examples/wiki):
 1. Juniper and Ansible
 2. Technical use cases
 3. Installing Ansible
 4. Unitask playbooks
-  a. junos_install_config
-  b. junos_get_facts
-  c. junos_commit
+  * junos_install_config
+  * junos_get_facts
+  * junos_commit
 
 
 We will now show how to install Ansible. 
