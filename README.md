@@ -8,9 +8,9 @@ We will be going over the following topics (for more details check out the [wiki
 2. Technical use cases
 3. Installing Ansible
 4. Unitask playbooks
-  * junos_install_config
-  * junos_get_facts
-  * junos_commit
+   * junos_install_config
+   * junos_get_facts
+   * junos_commit
 
 
 We will now show how to install Ansible. 
