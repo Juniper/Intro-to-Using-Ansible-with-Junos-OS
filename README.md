@@ -9,7 +9,7 @@ We will be going over the following topics (for more details check out the [wiki
 1. Juniper and Ansible
 2. Technical use cases
 3. Installing Ansible
-4. Unitask playbooks
+4. Playbooks
 
     i. [junos_install_config](https://github.com/Juniper/ansible-junos-examples/wiki/junos_install_config)
     
