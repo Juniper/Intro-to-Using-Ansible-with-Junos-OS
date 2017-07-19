@@ -5,7 +5,7 @@ Juniper Networks specifically uses Ansible to automate network infrustructure. A
 
 Although Ansible is written in Python, knowing Python is not necessary to use Ansible because the automation tasks are written in the human readable language YAML. Click [here](../master/resources/yaml.pdf) to get a brief introduction to YAML. These YAML files are called playbooks. Users execute the playbook against a set of hosts in an inventory file to automate the job. To read a short intro on playbooks click [here](../master/resources/playbooks.pdf). Playbooks also make use of the Jinja2 templating system. All these tools together make Ansible a very easy to use, dynamic tool for automating jobs.  
 
-We will be going over the following topics (for more details check out the [wiki](https://github.com/Juniper/ansible-junos-examples/wiki):
+We will be going over the following topics (for more details check out the [wiki](https://github.com/Juniper/ansible-junos-examples/wiki)):
 1. Juniper and Ansible
 2. Technical use cases
 3. Installing Ansible
