@@ -17,6 +17,10 @@ We will be going over the following topics (for more details check out the [wiki
     
     iii. [junos_commit](https://github.com/Juniper/ansible-junos-examples/wiki/junos_commit)
 
+# License
+Apache 2.0
 
+# Contributors
+Noa Shadmon, Jessica Garrison
 
 
