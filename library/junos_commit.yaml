@@ -1,0 +1,21 @@
+---
+- name: Commit
+  hosts: junos-all
+  connection: local
+  gather_facts: no
+  roles:
+    - Juniper.junos
+  vars_prompt:
+    - name: ADMUSER
+      prompt: Username
+      private: no
+    - name: ADMPASS
+      prompt: password
+      private: yes
+  tasks:
+    - name: Confirm the commit
+      junos_commit:
+        host: "{{ inventory_hostname }}"
+        user: "{{ ADMUSER }}"
+        passwd: "{{ ADMPASS }}"
+        comment: "commit confirmed

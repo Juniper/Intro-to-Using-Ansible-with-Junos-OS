@@ -1,0 +1,21 @@
+---
+- name: install config
+  hosts: junos-all
+  connection: local
+  gather_facts: no
+  roles:
+    - Juniper.junos
+  vars_prompt:
+    - name: ADMUSER
+      prompt: Username
+      private: no
+    - name: ADMPASS
+      prompt: Password
+      private: yes
+  tasks:
+    - name: Install configuration on Junos device
+      junos_install_config:
+        host: "{{ inventory_hostname }}"
+        user: "{{ ADMUSER }}"
+        passwd: "{{ ADMPASS }}"
+        file: new.conf
