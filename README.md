@@ -21,23 +21,20 @@ Although Ansible is written in Python, knowing Python is not necessary to use An
 3. Installing Ansible
 4. Playbooks
 
-    i. junos_install_config
-    
-        * [Code](https://github.com/Juniper/ansible-junos-examples/blob/master/library/junos_install_config.yaml)
-        * [Read the doc](https://github.com/Juniper/ansible-junos-examples/wiki/junos_install_config)
-        * [Watch the video](https://www.youtube.com/watch?v=gHFyhr3imIc)
-        
-    ii. junos_get_facts
-    
-        * [code](https://github.com/Juniper/ansible-junos-examples/blob/master/library/junos_get_facts.yaml)
-        * [Read the doc](https://github.com/Juniper/ansible-junos-examples/wiki/junos_get_facts)
-        * [Watch the video](https://www.youtube.com/watch?v=KDPTs_9qd8o)
-    
-    iii. junos_commit
-    
-        * [code](https://github.com/Juniper/ansible-junos-examples/blob/master/library/junos_commit.yaml)
-        * [Read the doc](https://github.com/Juniper/ansible-junos-examples/wiki/junos_commit)
-        * [Watch the video](https://www.youtube.com/watch?v=M4qSlrb3-zU)
+    i. junos_install_config 
+     * [Code](https://github.com/Juniper/ansible-junos-examples/blob/master/library/junos_install_config.yaml)
+     * [Read the doc](https://github.com/Juniper/ansible-junos-examples/wiki/junos_install_config)
+     * [Watch the video](https://www.youtube.com/watch?v=gHFyhr3imIc)
+     
+    ii. junos_get_facts   
+      * [code](https://github.com/Juniper/ansible-junos-examples/blob/master/library/junos_get_facts.yaml)
+      * [Read the doc](https://github.com/Juniper/ansible-junos-examples/wiki/junos_get_facts)
+      * [Watch the video](https://www.youtube.com/watch?v=KDPTs_9qd8o)    
+      
+    iii. junos_commit    
+      * [code](https://github.com/Juniper/ansible-junos-examples/blob/master/library/junos_commit.yaml)
+      * [Read the doc](https://github.com/Juniper/ansible-junos-examples/wiki/junos_commit)
+      * [Watch the video](https://www.youtube.com/watch?v=M4qSlrb3-zU)
 
 # License
 Apache 2.0
