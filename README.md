@@ -25,13 +25,13 @@ Although Ansible is written in Python, knowing Python is not necessary to use An
      * [Code](https://github.com/Juniper/ansible-junos-examples/blob/master/library/junos_install_config.yaml)
      * [Read the doc](https://github.com/Juniper/ansible-junos-examples/wiki/junos_install_config)
      * [Watch the video](https://www.youtube.com/watch?v=gHFyhr3imIc)
-     * [Other Variations](https://github.com/ksator/ansible-training-for-junos-automation/blob/master/junos_install_conf/pb.yml)
+     * [Other Variation](https://github.com/ksator/ansible-training-for-junos-automation/blob/master/junos_install_conf/pb.yml)
      
     ii. junos_get_facts   
       * [Code](https://github.com/Juniper/ansible-junos-examples/blob/master/library/junos_get_facts.yaml)
       * [Read the doc](https://github.com/Juniper/ansible-junos-examples/wiki/junos_get_facts)
       * [Watch the video](https://www.youtube.com/watch?v=KDPTs_9qd8o) 
-      * [Other Variations](https://github.com/ksator/ansible-training-for-junos-automation/tree/master/junos_get_facts/pb.yaml)
+      * [Other Variation](https://github.com/ksator/ansible-training-for-junos-automation/tree/master/junos_get_facts/pb.yaml)
       
     iii. junos_commit    
       * [Code](https://github.com/Juniper/ansible-junos-examples/blob/master/library/junos_commit.yaml)
