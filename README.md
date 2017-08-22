@@ -1,6 +1,14 @@
 # What is Ansible?
 Ansible is an automation framework that is used for automating tasks. Ansible supports a wide range of integrations. The most commonly used ones are infrustructure, networks, containers, cloud, and devop tools. To learn more about Ansible check out their [website](https://ansible.com). 
 
+# Why use Ansible?
+Ansible is a great tool if you need to make changes and/or execute specific tasks on more than one device. Instead of having to do a specific task on multiple machines one at a time, you can do that task on all of them at once by executing one script (playbook). Also, if you have multiple tasks you can combine them into one playbook. This saves a lot of time for the developer and minimizes the chance of any errors. 
+
+# Ansible and Junos OS
+[Juniper Networks](http://www.juniper.net/us/en/) specifically uses Ansible to automate network infrustructure. Although one might think that this is a daunting task, it is actually something anyone can do even without a strong programming background. In this guide, we will be showing how to use Ansible with Junos. 
+
+Although Ansible is written in Python, knowing Python is not necessary to use Ansible because the automation tasks are written in the human readable language YAML. Click [here](../master/resources/yaml.pdf) to get a brief introduction to YAML. These YAML files are called playbooks. Users execute the playbook against a set of hosts in an inventory file to automate the job. To read a short intro on playbooks click [here](../master/resources/playbooks.pdf). Playbooks also make use of the Jinja2 templating system. All these tools together make Ansible a very easy to use, dynamic tool for automating jobs.  
+
 # Ansible and Networking Vendors
 Ansible can be used with multiple networking vendors: 
 * Juniper
@@ -9,11 +17,6 @@ Ansible can be used with multiple networking vendors:
 * Avi Networks
 * Cumulus
 * Nokia and more
-
-# Ansible and Juniper
-[Juniper Networks](http://www.juniper.net/us/en/) specifically uses Ansible to automate network infrustructure. Although one might think that this is a daunting task, it is actually something anyone can do even without a strong programming background. In this guide, we will be showing how to use Ansible with Junos. 
-
-Although Ansible is written in Python, knowing Python is not necessary to use Ansible because the automation tasks are written in the human readable language YAML. Click [here](../master/resources/yaml.pdf) to get a brief introduction to YAML. These YAML files are called playbooks. Users execute the playbook against a set of hosts in an inventory file to automate the job. To read a short intro on playbooks click [here](../master/resources/playbooks.pdf). Playbooks also make use of the Jinja2 templating system. All these tools together make Ansible a very easy to use, dynamic tool for automating jobs.  
 
 # [Wiki Contents](https://github.com/Juniper/ansible-junos-examples/wiki)
 1. Juniper and Ansible
