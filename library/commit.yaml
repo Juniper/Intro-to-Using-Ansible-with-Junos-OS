@@ -1,0 +1,29 @@
+---
+- name: Commit
+  hosts: junos-all
+  connection: local
+  gather_facts: no
+  roles:
+    - Juniper.junos
+  vars_prompt:
+    - name: ADMUSER
+      prompt: Username
+      private: no
+    - name: ADMPASS
+      prompt: password
+      private: yes
+  tasks:
+    - name: push one set command to config
+      junos_install_config:
+        host: "{{ inventory_hostname }}"
+        user: "{{ ADMUSER }}"
+        passwd: "{{ ADMPASS }}"
+        replace: no
+        overwrite: no
+        file: newUser.set
+    - name: Confirm the commit
+      junos_commit:
+        host: "{{ inventory_hostname }}"
+        user: "{{ ADMUSER }}"
+        passwd: "{{ ADMPASS }}"
+        comment: "commit confirmed"
