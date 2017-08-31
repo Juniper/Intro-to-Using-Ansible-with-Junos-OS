@@ -9,14 +9,18 @@ Ansible is a great tool if you need to make changes and/or execute specific task
 
 Although Ansible is written in Python, knowing Python is not necessary to use Ansible because the automation tasks are written in the human readable language YAML. Click [here](../master/resources/yaml.pdf) to get a brief introduction to YAML. These YAML files are called playbooks. Users execute the playbook against a set of hosts in an inventory file to automate the job. To read a short intro on playbooks click [here](../master/resources/playbooks.pdf). Playbooks also make use of the Jinja2 templating system. All these tools together make Ansible a very easy to use, dynamic tool for automating jobs.  
 
-# Ansible and Networking Vendors
-Ansible can be used with multiple networking vendors: 
-* Juniper
+# Ansible and Other Vendors
+Ansible can be used with other vendors as well. Some include: 
+* Juniper             
 * Arista
-* Cisco
-* Avi Networks
+* Cisco)
 * Cumulus
-* Nokia and more
+* Nokia 
+* Amazon Web Server
+* OpenStack
+* VMWare
+* Red Hat Enterprise Virtualization (RHEV)
+
 
 # [Wiki Contents](https://github.com/Juniper/ansible-junos-examples/wiki)
 1. Juniper and Ansible
@@ -24,19 +28,19 @@ Ansible can be used with multiple networking vendors:
 3. Installing Ansible
 4. Playbooks
 
-    i. junos_install_config 
+    i. Initial Installation - install a configuration on any Junos device 
      * [Code](https://github.com/Juniper/ansible-junos-examples/blob/master/library/junos_install_config.yaml)
      * [Read the doc](https://github.com/Juniper/ansible-junos-examples/wiki/junos_install_config)
      * [Watch the video](https://www.youtube.com/watch?v=gHFyhr3imIc)
      * [Other Variation](https://github.com/ksator/ansible-training-for-junos-automation/blob/master/junos_install_conf/pb.yml)
      
-    ii. junos_get_facts   
+    ii. Health Checks - get some facts about your device like the serial number, hostname, and more
       * [Code](https://github.com/Juniper/ansible-junos-examples/blob/master/library/junos_get_facts.yaml)
       * [Read the doc](https://github.com/Juniper/ansible-junos-examples/wiki/junos_get_facts)
       * [Watch the video](https://www.youtube.com/watch?v=KDPTs_9qd8o) 
       * [Other Variation](https://github.com/ksator/ansible-training-for-junos-automation/tree/master/junos_get_facts/pb.yaml)
       
-    iii. junos_commit    
+    iii. Provisioning - add a line to the existing configuration and save the changes
       * [Code](https://github.com/Juniper/ansible-junos-examples/blob/master/library/junos_commit.yaml)
       * [Read the doc](https://github.com/Juniper/ansible-junos-examples/wiki/junos_commit)
       * [Watch the video](https://www.youtube.com/watch?v=M4qSlrb3-zU)
