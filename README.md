@@ -11,13 +11,15 @@ Although Ansible is written in Python, knowing Python is not necessary to use An
 
 # Ansible and Other Vendors
 Ansible can be used with other vendors as well. Some include: 
-* Juniper             * Amazon Web Server
-* Arista              * OpenStack
-* Cisco)              * VMWare
-* Cumulus             * Red Hat Enterprise Virtualization (RHEV)
+* Juniper             
+* Arista              
+* Cisco)          
+* Cumulus             
 * Nokia 
-
-
+* Amazon Web Server
+* OpenStack
+* VMWare
+* Red Hat Enterprise Virtualization (RHEV)
 
 # [Wiki Contents](https://github.com/Juniper/ansible-junos-examples/wiki)
 1. Juniper and Ansible
