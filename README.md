@@ -28,7 +28,7 @@ Ansible can be used with other vendors as well. Some include:
 3. Installing Ansible
 4. Playbooks
 
-    i. Initial Installation - install a configuration on any Junos device 
+    i. Initial Installation - install a configuration on any Junos OS device via console
      * [Code](https://github.com/Juniper/ansible-junos-examples/blob/master/library/junos_install_config.yaml)
      * [Read the doc](https://github.com/Juniper/ansible-junos-examples/wiki/junos_install_config)
      * [Watch the video](https://www.youtube.com/watch?v=gHFyhr3imIc)
