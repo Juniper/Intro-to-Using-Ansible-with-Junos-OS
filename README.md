@@ -29,19 +29,19 @@ Ansible can be used with other vendors as well. Some include:
 
     i. Initial Installation - install a configuration on any Junos OS device via console
      * [Code](https://github.com/Juniper/ansible-junos-examples/blob/master/library/junos_install_config.yaml)
-     * [Read the doc](https://github.com/Juniper/ansible-junos-examples/wiki/junos_install_config)
+     * [Read the doc](https://github.com/Juniper/Intro-to-Using-Ansible-with-Junos-OS/wiki/Initial-Installation)
      * [Watch the video](https://www.youtube.com/watch?v=gHFyhr3imIc)
      * [Other Variation](https://github.com/ksator/ansible-training-for-junos-automation/blob/master/junos_install_conf/pb.yml)
      
     ii. Health Checks - get some facts about your device like the serial number, hostname, and more
       * [Code](https://github.com/Juniper/ansible-junos-examples/blob/master/library/junos_get_facts.yaml)
-      * [Read the doc](https://github.com/Juniper/ansible-junos-examples/wiki/junos_get_facts)
+      * [Read the doc](https://github.com/Juniper/Intro-to-Using-Ansible-with-Junos-OS/wiki/Health-Checks)
       * [Watch the video](https://www.youtube.com/watch?v=KDPTs_9qd8o) 
       * [Other Variation](https://github.com/ksator/ansible-training-for-junos-automation/tree/master/junos_get_facts/pb.yaml)
       
-    iii. Provisioning - add a line to the existing configuration and save the changes
+    iii. Provisioning - add two lines to the existing configuration and save the changes
       * [Code](https://github.com/Juniper/ansible-junos-examples/blob/master/library/junos_commit.yaml)
-      * [Read the doc](https://github.com/Juniper/ansible-junos-examples/wiki/junos_commit)
+      * [Read the doc](https://github.com/Juniper/Intro-to-Using-Ansible-with-Junos-OS/wiki/Provisioning)
       * [Watch the video](https://www.youtube.com/watch?v=M4qSlrb3-zU)
       * [Other Variation](https://github.com/ksator/ansible-training-for-junos-automation/blob/master/junos_commit/pb.yml)
 
