@@ -18,6 +18,4 @@
         host: "{{ inventory_hostname }}"
         user: "{{ ADMUSER }}"
         passwd: "{{ ADMPASS }}"
-        mode: "telnet"
-        port: 7006
-        file: config.conf
+        file: new.conf
