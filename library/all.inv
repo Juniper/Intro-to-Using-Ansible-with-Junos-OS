@@ -1,0 +1,5 @@
+[junos-tel]
+core2
+
+[junos-ssh]
+core1

@@ -1,6 +1,6 @@
 ---
 - name: Commit
-  hosts: junos-all
+  hosts: junos-ssh
   connection: local
   gather_facts: no
   roles:
@@ -13,7 +13,7 @@
       prompt: password
       private: yes
   tasks:
-    - name: push one set command to config
+    - name: push twp set commands to config
       junos_install_config:
         host: "{{ inventory_hostname }}"
         user: "{{ ADMUSER }}"

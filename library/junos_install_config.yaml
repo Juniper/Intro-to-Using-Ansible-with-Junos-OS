@@ -1,6 +1,6 @@
 ---
 - name: install config
-  hosts: junos-all
+  hosts: junos-tel
   connection: local
   gather_facts: no
   roles:
