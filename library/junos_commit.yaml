@@ -13,7 +13,7 @@
       prompt: password
       private: yes
   tasks:
-    - name: push two set commands to config
+    - name: add a new user
       junos_install_config:
         host: "{{ inventory_hostname }}"
         user: "{{ ADMUSER }}"
