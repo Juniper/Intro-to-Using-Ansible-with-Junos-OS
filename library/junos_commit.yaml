@@ -13,7 +13,7 @@
       prompt: password
       private: yes
   tasks:
-    - name: push twp set commands to config
+    - name: push two set commands to config
       junos_install_config:
         host: "{{ inventory_hostname }}"
         user: "{{ ADMUSER }}"
