@@ -39,7 +39,7 @@ Ansible can be used with other vendors as well. Some include:
       * [Watch the video](https://www.youtube.com/watch?v=KDPTs_9qd8o) 
       * [Other Variation](https://github.com/ksator/ansible-training-for-junos-automation/tree/master/junos_get_facts/pb.yaml)
       
-    iii. Provisioning - add a line to the existing configuration and save the changes
+    iii. Provisioning - add two lines to the existing configuration and save the changes
       * [Code](https://github.com/Juniper/ansible-junos-examples/blob/master/library/junos_commit.yaml)
       * [Read the doc](https://github.com/Juniper/Intro-to-Using-Ansible-with-Junos-OS/wiki/Provisioning)
       * [Watch the video](https://www.youtube.com/watch?v=M4qSlrb3-zU)
