@@ -13,7 +13,7 @@ Although Ansible is written in Python, knowing Python is not necessary to use An
 Ansible can be used with other vendors as well. Some include: 
 * Juniper             
 * Arista              
-* Cisco)          
+* Cisco       
 * Cumulus             
 * Nokia 
 * Amazon Web Server
