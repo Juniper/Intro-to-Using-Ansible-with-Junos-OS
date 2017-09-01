@@ -9,17 +9,11 @@ Ansible is a great tool if you need to make changes and/or execute specific task
 
 Although Ansible is written in Python, knowing Python is not necessary to use Ansible because the automation tasks are written in the human readable language YAML. Click [here](../master/resources/yaml.pdf) to get a brief introduction to YAML. These YAML files are called playbooks. Users execute the playbook against a set of hosts in an inventory file to automate the job. To read a short intro on playbooks click [here](../master/resources/playbooks.pdf). Playbooks also make use of the Jinja2 templating system. All these tools together make Ansible a very easy to use, dynamic tool for automating jobs.  
 
-# Ansible and Other Vendors
-Ansible can be used with other vendors as well. Some include: 
-* Juniper             
-* Arista              
-* Cisco       
-* Cumulus             
-* Nokia 
-* Amazon Web Server
-* OpenStack
-* VMWare
-* Red Hat Enterprise Virtualization (RHEV)
+# Ansible's Interoperability
+Ansible can be used with other vendors and/or software as well. Some include: 
+* Network vendors: Arista, Cisco, Cumulus, Nokia 
+* Cloud technologies: Amazon Web Server, OpenStack, VMWare
+* Operating Systems: Ubuntu, Red Hat Enterprise Linux
 
 # [Wiki Contents](https://github.com/Juniper/ansible-junos-examples/wiki)
 1. Juniper and Ansible
