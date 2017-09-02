@@ -1,3 +1,6 @@
+# What is Junos OS?
+Junos OS is an operating system on Juniper Networks devices (both physical and virtual). It comes with a command line interface (cli) that makes running tasks on Junos devices quick and easy. For more information on Junos OS, click [here](https://www.juniper.net/us/en/products-services/nos/junos/)
+
 # What is Ansible?
 Ansible is an automation framework that is used for automating tasks. Ansible supports a wide range of integrations. The most commonly used ones are infrustructure, networks, containers, cloud, and devop tools. To learn more about Ansible check out their [website](https://ansible.com). 
 
@@ -16,7 +19,7 @@ Ansible can be used with other vendors and/or software as well. Some include:
 * Operating systems: Ubuntu, Red Hat Enterprise Linux
 
 # [Wiki Contents](https://github.com/Juniper/ansible-junos-examples/wiki)
-1. Juniper and Ansible
+1. [Juniper and Ansible](https://github.com/Juniper/Intro-to-Using-Ansible-with-Junos-OS/wiki#junos-os-and-ansible)
 2. [Technical use cases](https://github.com/Juniper/Intro-to-Using-Ansible-with-Junos-OS/wiki#technical-use-cases)
 3. [Installing Ansible](https://github.com/Juniper/Intro-to-Using-Ansible-with-Junos-OS/wiki#installing-ansible)
 4. [Playbooks](https://github.com/Juniper/Intro-to-Using-Ansible-with-Junos-OS/wiki#ansible-and-junos-os-use-cases)
