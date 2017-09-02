@@ -17,9 +17,9 @@ Ansible can be used with other vendors and/or software as well. Some include:
 
 # [Wiki Contents](https://github.com/Juniper/ansible-junos-examples/wiki)
 1. Juniper and Ansible
-2. Technical use cases
-3. Installing Ansible
-4. Playbooks
+2. [Technical use cases](https://github.com/Juniper/Intro-to-Using-Ansible-with-Junos-OS/wiki#technical-use-cases)
+3. [Installing Ansible](https://github.com/Juniper/Intro-to-Using-Ansible-with-Junos-OS/wiki#installing-ansible)
+4. [Playbooks](https://github.com/Juniper/Intro-to-Using-Ansible-with-Junos-OS/wiki#ansible-and-junos-os-use-cases)
 
     i. Initial Installation - install a configuration on any Junos OS device via console
      * [Code](https://github.com/Juniper/ansible-junos-examples/blob/master/library/junos_install_config.yaml)
