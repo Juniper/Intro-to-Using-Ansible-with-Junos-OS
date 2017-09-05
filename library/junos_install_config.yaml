@@ -12,12 +12,15 @@
     - name: ADMPASS
       prompt: Password
       private: yes
+  vars:
+    - console_port: 7006
+    - console_server: core2
   tasks:
     - name: Install configuration on Junos device
       junos_install_config:
-        host: "{{ inventory_hostname }}"
+        host: "{{ console_server }}"
         user: "{{ ADMUSER }}"
         passwd: "{{ ADMPASS }}"
         mode: "telnet"
-        port: 7006
+        port: "{{ console_port }}"
         file: config.conf
