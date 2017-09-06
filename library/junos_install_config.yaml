@@ -13,8 +13,8 @@
       prompt: Password
       private: yes
   vars:
-    - console_port: 7006
     - console_server: core2
+    - console_port: 7006
   tasks:
     - name: Install configuration on Junos device
       junos_install_config:
@@ -24,3 +24,10 @@
         mode: "telnet"
         port: "{{ console_port }}"
         file: config.conf
+    - name: Commit changes
+      junos_commit:
+        host: "{{ console_server }}"
+        user: "{{ ADMUSER }}"
+        passwd: "{{ ADMPASS }}"
+        mode: "telnet"
+        port: "{{ console_port }}"
